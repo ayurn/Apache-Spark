@@ -1,0 +1,2 @@
+Next step is to create a SparkSession and sparkContext. While creating sparksession we need to mention the mode of execution, application name Below is the snippet to create the same
+Our Next step is to read the input file as RDD and provide transformation to calculate the count of each word in our file. To know about RDD and how to create it, go through the article on What is RDD
