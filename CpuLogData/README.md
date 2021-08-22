@@ -23,7 +23,7 @@ Import the necessary library and create a spark session:
 
 Creating a dataframe by loading a csv file from hdfs:
 
-    df = spark.read.csv("hdfs://localhost:9000/Spark_Sql_Task/*.csv",header=True)
+    df = spark.read.csv("hdfs://localhost:9000/sparkData/CpuLogs/*.csv",header=True)
 
 Considering only these 4 columns from that csv file thus creating new dataframe:
 
